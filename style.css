@@ -17,6 +17,8 @@ body{
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     background-color: var(--light-gray);
+    padding: 10px ;
+    overflow: hidden;
 }
 
 /* img{
@@ -32,22 +34,22 @@ body{
     
 
 }
-.box{
-    width: 290px;
+.card {
+    max-width: 290px;
     background-color: var(--white);
     padding: 15px;
     border-radius: 15px;
 }
-.box  img{
+.card img{
     width: 260px;
     border-radius: 10px;
 }
 
-.box  h2{
+.card h2{
     margin: 20px 0;
     color: var(--dark-blue);
 }
-.box  p{
+.card p{
     margin-bottom: 15px;
     color: var(--grayish-blue);
 }
